@@ -1,0 +1,54 @@
+.player{
+    border:solid black;
+    border-radius: 100px;
+    background-color: lime;
+    width:30px;
+    height:30px;
+    text-align:center;
+    
+    
+}
+html {
+    background-color: turquoise;
+}
+.father {
+    display: grid;
+    margin-top:100px;
+    margin-left:500px;
+    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr repeat(5,1fr);
+    height: 50vh;
+    width:50vh;
+    background-color: darkblue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*#sidebar {*/
+/*    font-size: 70%;*/
+/*    grid-gap: 70px;*/
+/*    background-color:red;*/
+/*    grid--start: 2;*/
+/*    grid-row-end: -1;*/
+/*    color: white;*/
+/*}*/
+
+/*#header {*/
+/*    grid-row: span 1;*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: -1;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*#sidebar2 {*/
+/*    font-size: 70%;*/
+/*    grid-row-start: 2;*/
+/*    grid-row-end: -1;*/
+/*    grid-column-start: 3;*/
+/*    grid-column-end: -1;*/
+/*    color: white;*/
+
+/*}*/
