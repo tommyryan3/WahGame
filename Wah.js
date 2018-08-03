@@ -5,6 +5,7 @@ let playerReceive= false
 let lastPlayer=0
 let playerLeft = false
 let playerRight = false
+let mySound = document.querySelector("myAudio")
 
 setInterval(Wa,1000)
 
