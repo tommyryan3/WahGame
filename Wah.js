@@ -11,7 +11,7 @@ document.addEventListener('keyup' , function(e){
     mySound.play()
     
 })
-setInterval(Wa,500)
+setInterval(Wa,1500)
 
 document.addEventListener('keyup' , function(e){
     if (e.keyCode == 40) {
