@@ -5,8 +5,12 @@ let playerReceive= false
 let lastPlayer=0
 let playerLeft = false
 let playerRight = false
-let mySound = document.querySelector("myAudio")
+let mySound = document.querySelector("#myAudio")
 
+document.addEventListener('keyup' , function(e){
+    mySound.play()
+    
+})
 setInterval(Wa,1000)
 
 document.addEventListener('keyup' , function(e){
@@ -21,21 +25,26 @@ document.addEventListener('keyup' , function(e){
     }
 })
 
+
  function Wa() {
+     
     if (lastPlayer == 6) {
         if (playerReceive == false) {
             alert("Game Over!")
+            
         }
     }else if (lastPlayer == 5) {
         if (playerLeft == false) {
             alert("Game Over!")
+            
         }
     }else if (lastPlayer == 7) {
         if (playerRight == false) {
             alert("Game Over!")
+          
         }
     }
-    
+        
     playerReceive = false
     playerLeft = false
     playerLeft = false
